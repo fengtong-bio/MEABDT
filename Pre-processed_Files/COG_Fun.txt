@@ -1,0 +1,10 @@
+M	Cell wall/membrane/envelope biogenesis	394689
+G	Carbohydrate transport and metabolism	355630
+L	Replication, recombination and repair	325891
+K	Transcription	318224
+E	Amino acid transport and metabolism	302552
+J	Translation, ribosomal structure and biogenesis	301193
+C	Energy production and conversion	240563
+P	Inorganic ion transport and metabolism	201681
+H	Coenzyme transport and metabolism	189164
+Others	Others	2213432
