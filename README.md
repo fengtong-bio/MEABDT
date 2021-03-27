@@ -57,6 +57,8 @@ Note: The version are only the version used in the paper, most of database are c
 
 The Example workflow is divided into two folders: 'Pipeline' and 'Scripts'. 'Pipeline' folder is the process and specific parameter example of software analysis, and 'Scripts' folder is a self written script for analysis and drawing.Some steps are the same analysis for each sample, some steps are the same analysis by group, in addition to the analysis based on MAGs.
 
+#### Mags acquisition and annotation
+
 #### Part1: 01_preprocessing.sh
 
 Pretreatment of rawdata, including quality control (removal of low-quality sequence and adaptor sequence) and removal of host genome (including host genome sequence and host foodborne genome sequence).
