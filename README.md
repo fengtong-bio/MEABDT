@@ -35,7 +35,7 @@ The required software names (including versions) and addresses are as follows, s
 |eggnog-mapper (v.4.5)|https://github.com/eggnogdb/eggnog-mapper|
 |hmmer (v.3.3.2)|https://github.com/EddyRivasLab/hmmer|
 
-Note: Be sure that the software is loaded in the same environment, that some software uses will call others (say dreps), that the software version given is not necessarily the latest version, and that given here is the version used to complete the project.
+Note: Be sure that the software is loaded in the same environment, that some software uses will call others (such as dRep), that the software version given is not necessarily the latest version, and that given here is the version used to complete the project.
 
 ### Database installation
 
@@ -51,7 +51,7 @@ The data names, instructions, and addresses that need to be downloaded in this p
 |dbCAN|CAZymes annotation|http://bcb.unl.edu/dbCAN2/download/|
 |GTDB-tk|GTDB-tk database|https://gtdb.ecogenomic.org/downloads|
 
-Note: The version are only the version used in the paper,most of database are constantly updated.
+Note: The version are only the version used in the paper, most of database are constantly updated.
 
 ## Usage
 
