@@ -83,6 +83,7 @@ The quality of mags and the comparison rate of reads were analyzed. The self wri
 
 This workflow is just a statement of work for project "Microbial ecology along the buffalo digestive tract provides insights to their functions and interactions with the host" and does not necessarily apply to other projects, as appropriate when other projects are being completed as the actual work needs.
 
-This project is jointly participated by Feng Tong, Teng Wang and Na L. Gao.
+
+Note: This project is jointly participated by Feng Tong, Teng Wang and Na L. Gao.
 
 
