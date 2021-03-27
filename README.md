@@ -57,7 +57,7 @@ Note: The version are only the version used in the paper, most of database are c
 
 The Example workflow is divided into two folders: 'Pipeline' and 'Scripts'. 'Pipeline' folder is the process and specific parameter example of software analysis, and 'Scripts' folder is a self written script for analysis and drawing.Some steps are the same analysis for each sample, some steps are the same analysis by group, in addition to the analysis based on MAGs.
 
-#### Mags acquisition and annotation
+### Mags acquisition and annotation
 
 #### Part1: 01_preprocessing.sh
 
@@ -75,7 +75,7 @@ All the obtained Bins were filtered and de redundant to obtain high quality MAGs
 
 The predicted results were analyzed according to the MAGs. Non-redundant genes were annotated by function and enzyme.
 
-#### Statistical analysis and visualization
+### Statistical analysis and visualization
 
 The quality of mags and the comparison rate of reads were analyzed. The self written scripts and visual instructions used in the inter group difference analysis of function annotation and enzyme annotation are in the folder 'Scripts'.
 
