@@ -2,17 +2,17 @@
 
 ## Introduction
 
-This directory contains scripts related to the manuscript "Microbial ecology along the buffalo digestive tract provides insights to their functions and interactions with the host".
+This REPO contains in-house scripts (R, Python), data and detailed instructions for users to reproduce much of the analyses we have done for our manuscript titled "Microbial ecology along the buffalo digestive tract provides insights to their functions and interactions with the host".
 
-Please install the required programs and download the necessary database before testing. Most of the software can be installed through [CONDA](https://www.anaconda.com/products/individual).
+If further assisstance is required, please do not hesitate to contact me by raise an issue in the "Issues" section of this REPO.
 
-## INSTALLATION
+## PREREQUISITES
 
-Before starting the process, you need to create a new working path, and all sequencing rawdata links to the same directory.
+Below are a list of softwares and databases required before running out test data. Most of the softwares can be installed through [CONDA](https://www.anaconda.com/products/individual).
 
-### Software installation
+### Softwares
 
-The required software names (including versions) and addresses are as follows, see instructions for proper software installation on the server:
+A list of required softwares and URLs for their downloads. Please follow instructions for proper software installation on their respective servers. The versions in the parenthesis indicate the ones we used for our project.
 
 |Software|Availability|
 |:--------|:-----------|
@@ -35,11 +35,11 @@ The required software names (including versions) and addresses are as follows, s
 |eggnog-mapper (v.4.5)|https://github.com/eggnogdb/eggnog-mapper|
 |hmmer (v.3.3.2)|https://github.com/EddyRivasLab/hmmer|
 
-Note: Be sure that the software is loaded in the same environment, that some software uses will call others (such as dRep), that the software version given is not necessarily the latest version, and that given here is the version used to complete the project.
+Note: Please make sure all the softwares are in your $PATH.
 
-### Database installation
+### Databases
 
-The data names, instructions, and addresses that need to be downloaded in this project are as follows:
+A list of databases and their URLs for downloads:
 
 |Database|Description|Availability|
 |:--------|:-----------|:------------|
@@ -51,11 +51,11 @@ The data names, instructions, and addresses that need to be downloaded in this p
 |dbCAN|CAZymes annotation|http://bcb.unl.edu/dbCAN2/download/|
 |GTDB-tk|GTDB-tk database|https://gtdb.ecogenomic.org/downloads|
 
-Note: The version are only the version used in the paper, most of database are constantly updated.
+Note: Please note the versions indicate the ones we used for our project, which might not be the latest.
 
-## Usage
+## USAGE
 
-The Example workflow is divided into two folders: 'Pipeline' and 'Scripts'. 'Pipeline' folder is the process and specific parameter example of software analysis, and 'Scripts' folder is a self written script for analysis and drawing.Some steps are the same analysis for each sample, some steps are the same analysis by group, in addition to the analysis based on MAGs.
+The Example workflow is divided into two folders: 'Pipeline' and 'Scripts'. 'Pipeline' folder contains details for the public softwares and their parameters used for our project, while the 'Scripts' folder contains in-house scripts for further data analysis and visualisation. See below for more information.
 
 ### Mags acquisition and annotation
 
