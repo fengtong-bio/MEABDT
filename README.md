@@ -57,33 +57,31 @@ Note: Please note the versions indicate the ones we used for our project, which 
 
 The Example workflow is divided into two folders: 'Pipeline' and 'Scripts'. 'Pipeline' folder contains details for the public softwares and their parameters used for our project, while the 'Scripts' folder contains in-house scripts for further data analysis and visualisation. See below for more information.
 
-### Mags acquisition and annotation
+### Generation of metagenomic-assembled genomes (MAGs) and their taxonomic and functional annotation
 
 #### Part1: 01_preprocessing.sh
 
-Pretreatment of rawdata, including quality control (removal of low-quality sequence and adaptor sequence) and removal of host genome (including host genome sequence and host foodborne genome sequence).
+Pre-processing of the raw sequencing data in FASTQ format, including quality control (removal of low-quality and adaptor sequences) and removal of host genome and contaminations from food.
 
 #### Part2: 02_assembly-binning.sh
 
-Metagenomic assembly and binning were divided into individual assembly of each sample and co assembly of each group. The results of each assembly were binning.
+Metagenomic assembly and binning were divided into individual assembly of each sample and co-assembly of all samples; in the co-assembly step, samples may be divided into different groups according to the origins (e.g., body sites) of the samples. The assembled contigs were then merged together for binning.
 
 #### Part3: 03_MAGs_taxonomy.sh
 
-All the obtained Bins were filtered and de redundant to obtain high quality MAGs. Then the obtained MAGs were classified and annotated.
+High-quality bins were identified to obtain MAGs. The taxonomic annotation was then performed for all MAGs to determine their taxonomic identities and phylogenetic relationships.
 
 #### Part4: 04_MAGs_function.sh
 
-The predicted results were analyzed according to the MAGs. Non-redundant genes were annotated by function and enzyme.
+MAGs were subjected to tools including PRODIGAL to identify protein-coding and non-coding genes. Protein-coding genes were clustered using CD-HIT to gereate a non-redundant catelog, which were used as input to BLAST against serveral public databases for functional annotation.
 
 ### Statistical analysis and visualization
 
-The quality of mags and the comparison rate of reads were analyzed. The self written scripts and visual instructions used in the inter group difference analysis of function annotation and enzyme annotation are in the folder 'Scripts'.
+All analyzed data were loaded to R and python for further analysis and visualisation using serveral in-house scripts. The in-house scripts are available in the folder 'Scripts'.
 
 ## Limitations
 
-This workflow is just a statement of work for project "Microbial ecology along the buffalo digestive tract provides insights to their functions and interactions with the host" and does not necessarily apply to other projects, as appropriate when other projects are being completed as the actual work needs.
+This workflow was designed speicically for "Microbial ecology along the buffalo digestive tract provides insights to their functions and interactions with the host"; editing and revisions might be required before applying to other projects.
 
 
 Note: This project is jointly participated by Feng Tong, Teng Wang and Na L. Gao.
-
-
