@@ -1,8 +1,8 @@
-# Microbial ecology along the buffalo digestive tract provides insights to their functions and interactions with the host
+# The microbiome of the buffalo digestive tract
 
 ## Introduction
 
-This REPO contains in-house scripts (R, Python), data and detailed instructions for users to reproduce much of the analyses we have done for our manuscript titled "Microbial ecology along the buffalo digestive tract provides insights to their functions and interactions with the host".
+This REPO contains in-house scripts (R, Python), data and detailed instructions for users to reproduce much of the analyses we have done for our manuscript titled "[The microbiome of the buffalo digestive tract](https://doi.org/10.1038/s41467-022-28402-9)".
 
 If further assisstance is required, please do not hesitate to contact me by raise an issue in the "Issues" section of this REPO.
 
@@ -81,7 +81,7 @@ All analyzed data were loaded to R and python for further analysis and visualisa
 
 ## Limitations
 
-This workflow was designed speicically for "Microbial ecology along the buffalo digestive tract provides insights to their functions and interactions with the host"; editing and revisions might be required before applying to other projects.
-
-
 Note: This project is jointly participated by Feng Tong, Teng Wang and Na L. Gao.
+
+Cite: [The microbiome of the buffalo digestive tract](https://doi.org/10.1038/s41467-022-28402-9).
+
