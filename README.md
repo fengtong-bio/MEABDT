@@ -83,5 +83,5 @@ All analyzed data were loaded to R and python for further analysis and visualisa
 
 Note: This project is jointly participated by Feng Tong, Teng Wang and Na L. Gao.
 
-Cite: [The microbiome of the buffalo digestive tract](https://doi.org/10.1038/s41467-022-28402-9).
+Cite: Tong, F. et al. [The microbiome of the buffalo digestive tract](https://doi.org/10.1038/s41467-022-28402-9). Nature Communications 13, 1-16 (2022).
 
